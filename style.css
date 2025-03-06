@@ -1,0 +1,67 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-color: lightblue;
+}
+
+.container{
+    background-color: #F3F3F3;
+    height: 85vh;
+    width: 60vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 5px 5px;
+}
+
+.screen{
+    margin: 12px;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 1.5rem;
+    background-color: #505050;
+    width: 100vh;
+    height: 10vh;
+    color: white;
+    text-align: right;
+}
+
+.key{
+    margin: 12px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #505050;
+    font-weight: bold;
+    font-size: 1.5rem;
+    height: 10vh;
+    width: 10vh;
+    color: white;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    
+    /* Shadow effect */
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
+}
+
+#enter{
+    background-color: #FF9500;
+}
+
+/* Highlight special buttons */
+#enter:hover{
+    background-color: #00ff8c;
+    box-shadow: 3px 3px 6px rgba(255, 149, 0, 0.5);
+}
+
+#Del:hover {
+    background-color: rgb(255, 89, 0);
+    box-shadow: 3px 3px 6px rgba(255, 0, 0, 0.5);
+}
+
+.key:hover{
+    background-color: grey;
+}
